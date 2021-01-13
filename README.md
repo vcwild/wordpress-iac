@@ -1,4 +1,4 @@
-# Vagrant 101
+# Wordpress Infrastructure as Code
 
 ## Project requirements
 
