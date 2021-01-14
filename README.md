@@ -13,3 +13,19 @@ Move the public key to ./ssh-keys
 ```{sh}
 mv vagrant_id_rsa.pub ./ssh-keys/vagrant_id_rsa.pub
 ```
+
+# How to Run
+
+## Provisioning
+
+Source environment variables
+
+```{sh}
+. ./.env
+```
+
+Run ansible playbook
+
+```{sh}
+ansible-playbook $PROVISIONING_PATH -i $HOSTS_PATH
+```
