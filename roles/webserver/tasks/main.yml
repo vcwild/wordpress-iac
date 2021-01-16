@@ -1,0 +1,6 @@
+---
+- name: 'Install PHP dependencies'
+  apt:
+    state: latest
+    name: "{{ wp_packages }}"
+  become: yes
